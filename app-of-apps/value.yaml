@@ -1,7 +1,0 @@
-# # test
-# argocd:
-#   giropopsSenhas:
-#     enabled: true
-#     replicas: 5
-#   randomLogger:
-#     enabled: true
