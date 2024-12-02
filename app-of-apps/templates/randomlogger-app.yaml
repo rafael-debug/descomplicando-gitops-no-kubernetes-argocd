@@ -1,4 +1,4 @@
-{{- if and (.Values.argocd.randomLogger) (.Values.argocd.randomLogger.enabled | default true) }}
+{{- if .Values.argocd.randomLogger.enabled | default false }}
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
