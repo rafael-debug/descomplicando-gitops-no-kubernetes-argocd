@@ -10,10 +10,10 @@ spec:
   project: default
   source:
     path: random-logger/helm
-    repoURL: https://github.com/bernardolsp/descomplicando-gitops-no-kubernetes-argocd.git
+    repoURL: https://github.com/rafael-debug/descomplicando-gitops-no-kubernetes-argocd.git
     targetRevision: HEAD
   syncPolicy:
     automated:
       selfHeal: true
     syncOptions:
-    - CreateNamespace=true 
+    - CreateNamespace=true
