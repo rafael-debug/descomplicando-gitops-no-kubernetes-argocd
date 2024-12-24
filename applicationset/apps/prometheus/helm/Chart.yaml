@@ -1,0 +1,8 @@
+apiVersion: v2
+name: prometheus
+description: A helm chart for prometheus
+version: 0.1.0
+dependencies:
+  - name: prometheus
+    repository: 'https://prometheus-comunity.github.io/helm-charts'
+    version: 15.7.1
