@@ -12,7 +12,7 @@ spec:
       revision: HEAD
       directories:
       - path: applicationset/apps/*/helm
-      - path: applicationset/apps/random-logger/*
+      - path: applicationset/apps/random-logger/helm
         exclude: true
   template:
     metadata:
