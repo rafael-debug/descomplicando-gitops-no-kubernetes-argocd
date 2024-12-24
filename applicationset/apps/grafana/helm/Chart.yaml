@@ -1,8 +1,8 @@
-apiVersion: v2
-name: grafana
-description: A helm chart for grafana
-version: 0.1.0
-dependencies:
-  - name: prometheus
-    repository: 'https://grafana.github.io/helm-charts'
-    version: 7.0.19 
+# apiVersion: v2
+# name: grafana
+# description: A helm chart for grafana
+# version: 0.1.0
+# dependencies:
+#   - name: prometheus
+#     repository: 'https://grafana.github.io/helm-charts'
+#     version: 7.0.19 
